@@ -1,0 +1,123 @@
+body{
+    background-color: #f6f5f5;
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+section{
+    width: 100%;
+    height: 100vh;
+    background-image: url(/photos/aboutme/bgaboutme.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    left: 30px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: rgba(9, 8, 112, 0.541);
+    box-shadow: 2px 2px 12px rgba(red, green, blue, alpha);
+    padding: 0px 5%;
+}
+nav ul{
+    display: flex;
+}
+nav ul li a{
+    margin: 30px;
+    font-family: myriad pro regular;
+    color: rgb(255, 255, 254);
+    font-size: 15px;
+    font-weight: 700;
+}
+nav ul li:hover{
+    background: rgba(255, 230, 0, 0.548);
+    background-size: 30px;
+}
+.logo{
+    font-family: poppins;
+    color: #000000;
+    font-size: 22px;
+}
+.active{
+    font-weight: 
+}
+.text-conatiner{
+    color: white;
+}
+.text-conatiner p:nth-child(1){
+    font-family: poppins;
+    font-weight: bold;
+    color: yellow;
+    font-size: 22px;
+}
+.text-conatiner p:nth-child(2){
+    font-family: poppins;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: rgba(250, 249, 248, 0.959);
+    font-size: 60px;
+}
+.text-conatiner p:nth-child(3){
+    font-family: poppins;
+    color: rgb(254, 255, 254);
+    font-size: 30px;
+    line-height: 30px;
+}
+.text-conatiner p{
+    line-height: 0;
+    margin: 45px 0px 25px;
+}
+.text-conatiner{
+    position: absolute;
+    left: 13%;
+    top: 100px;
+    transform: translate(-13%, -14%);
+}
+.text-container button{
+    width: 130px;
+    height: 42px;
+    border-radius: 10px;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 14px;
+    outline: none;
+    margin: 0px 10px;
+}
+.hire-btn{
+    border: 2px solid rgba(253, 253, 252, 0.671);
+    color: rgba(250, 250, 245, 0.959);
+    background-color: rgba(255, 196, 0, 0.562);
+}
+.hire-btn:hover{
+    background:rgba(211, 5, 149, 0.575);
+}
+.down-cv{
+    background: rgba(65, 105, 225, 0.61);
+    color: white;
+    border: none;
+    border: 2px solid rgba(206, 206, 9, 0.671);
+}
+.down-cv:hover{
+    background: rgba(211, 5, 149, 0.575);
+}
+button:active{
+    transform: scale(1.1);
+}
+
+/*--------------- model ------------------*/
+
+.model{
+    height: 400px;
+    position: absolute;
+    bottom: 0px;
+    left: 70%;
+    top: 25%;
+    transform: translate(-70%);
+}

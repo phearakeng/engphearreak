@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    width: 100%;
+    margin: auto;
+}
+header{
+    background: url(/photos/experience/bgexperience.jpg);
+    height: 100vh;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+.nav-area{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+.nav-area li{
+    display: inline-block;
+}
+.nav-area li a{
+    color: rgb(255, 254, 254);
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: poppins;
+    font-size: 14px;
+}
+.nav-area li a:hover{
+    background: rgba(250, 214, 8, 0.671);
+    color: rgb(0, 217, 255);
+    font-size: 17px;
+}
+.logo img{
+    width: 100px;
+    float: left;
+    height: auto;
+}
+.welcom-text{
+    position: absolute;
+    width: 600px;
+    height: 300px;
+    margin: 20% 30%;
+    text-align: center;
+}
+.welcom-text h1{
+    text-align: center;
+    color: rgba(243, 179, 4, 0.979);
+    text-transform: uppercase;
+    font-size: 60px;
+}
+.welcom-text a{
+    border: 1px solid white;
+    padding: 10px 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 5px;
+    display: inline-block;
+    color: rgb(255, 253, 253);
+    background: rgba(236, 232, 4, 0.603);
+}
+.welcom-text a:hover{
+    background: blue;
+    font-size: 16px;
+}
+
+/* HEADER */
+
+.small{
+    color: white;
+}
+
+.container{
+    color: rgba(17, 17, 12, 0.918);
+    width: 100%;
+    display: flex;
+    padding: 10px;
+}
+.wraptext{
+    display: inline-block;
+    float: right;
+    width: 60%;
+}
+.flex{
+    width: 40%;
+    margin: 10px;
+    background: seagreen;
+}
+.p-one{
+    background: rgba(255, 0, 255, 0.61);
+}
+.p-two{
+    background:rgba(255, 0, 255, 0.61);
+}
+.p-three{
+    background: rgba(255, 0, 255, 0.61);
+}
+.p-four{
+    background:rgba(255, 0, 255, 0.61);
+}
+.p-five{
+    background: rgba(255, 0, 255, 0.61);
+}
+.p-one:hover{
+    background: rgba(65, 105, 225, 0.63);
+}
+.p-two:hover{
+    background: rgba(65, 105, 225, 0.63);
+}
+.p-three:hover{
+    background: rgba(65, 105, 225, 0.63);
+}
+.p-four:hover{
+    background: rgba(65, 105, 225, 0.63);
+}
+.p-five:hover{
+    background: rgba(65, 105, 225, 0.63);
+}
+h3{
+    background: rgba(2, 188, 245, 0.705);
+    text-align: center;color: white;font-family: inherit;
+}
+.images img{
+    width: 100%;
+}
+
+.pass img:hover{
+    background: mediumorchid;
+}
+.pass img{
+    width: 70%;
+    height: 30%;
+    justify-content: center;
+    float: right;
+}
+.pass{
+    background: orange;
+    display: flex;
+}
+.pass a{
+    text-decoration: none;
+    font-family: serif;
+    color: white;
+    font-weight: 400;
+    font-size: 30px;
+}
+.pass a:hover{
+    background: steelblue;
+}
