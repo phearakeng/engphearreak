@@ -78,25 +78,20 @@ body
 }
 .contianer
 {
-    display: inline-block;
     width: 100%;
     padding: 10px;
     background: cornflowerblue;
 }
 .box img
-{   display: flex;
-    width: 30%;
-    position: relative;
+{   
+    display: flex;
+    width: 50%;
 }
 
-.box
-{
-    margin: 10px;
-}
 .download .icon-fa i
 {
     background: rgba(252, 152, 1, 0.89);
-    width: 30%;
+    width: 50%;
     height: 40px;
     text-align: center;
     justify-content: center;
@@ -106,6 +101,10 @@ i h6{
     color: white;
     font-family: sans-serif;
 }
-.para{
-    float: right;
+
+.para p{
+    color: white;
+    justify-content: flex-end;
+    background: royalblue;
+    width: 50%;
 }
